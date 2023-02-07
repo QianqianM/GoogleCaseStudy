@@ -1,0 +1,163 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Qianqian the Analyst Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>Qianqian's Portfolio<br />
+						</h1>
+						<p>Entry-level data analytics professional; Skilled in SQL, Python, Tableau and Excel. Bilingual in English and Chinese <a href="https://www.linkedin.com/in/qianqianmeng/">@Qianqian</a> 
+						</p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Google Data Analytics Case Study</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">Find me</a></li>
+						</ul>
+						<ul class="icons">
+			
+							<li><a href="https://www.linkedin.com/in/qianqianmeng/" class="icon brands alt fa-linkedin"><span class="label">linkedin</span></a></li>
+									<li><a href="https://github.com/QianqianM" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+					
+									<h2><a href="#">About the company<br />
+									</a></h2>
+									<p> In 2016, Cyclistic launched a successful bike-share oﬀering. Since then, the program has grown to a ﬂeet of 5,824 bicycles that are geotracked and locked into a network of 692 stations across Chicago. The bikes can be unlocked from one station and
+										returned to any other station in the system anytime. Customers who purchase single-ride or full-day passes are referred to as casual riders. Customers
+										who purchase annual memberships are Cyclistic members. Cyclistic’s ﬁnance analysts have concluded that annual members are much more proﬁtable than casual riders. The director of marketing Moreno has set a clear goal: Design marketing strategies aimed at converting casual riders into annual members.
+								<a href="#" class="image main"><img src="images/QQQ.jpg" alt="" /></a>
+								<ul class="actions special">
+									
+								
+							</article>
+
+						<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+									
+										<h2><a href="#">EXCEL Cleaning & Manipulation<br />
+									
+									</header>
+									<a href="#" class="image fit"><img src="images/excel.jpg" alt="" /></a>
+									<p>Prior to importing into SQL, I used EXCEL for the initial cleaning of the individual files. First, I tried to remove any duplicates. Then I converted the columns “started_at” and “ended_at” to “Short Date”. I also created two new columns: ride_length and day_of_week. I created a ride_length column with a formula to subtract the started_at value from the ended_at value. I formatted the data in the column as “Time”. I created a “day_of_week” column and used the WEEKDAY function to create a numerical representation of the day of the week that each bicycle was checked out, where Sunday was represented by 1. Last, I filtered out the negatives and 0s and deleted these rows—sorted the sheet by “started at date” from oldest to newest. I then created pivot tables and did some simple calculations to make initial observations. Below is one example for December 2022.
+</p>
+									<ul class="actions special">
+										<li><a href="" class="button">Original data</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+									
+										<h2><a href="#">SQL Manipulation & Exploration<br />
+										
+									</header>
+									<a href="#" class="image fit"><img src="images/project.png" alt="" /></a>
+									<p>Firstly, I uploaded the 12 CSV files as 12 separate monthly tables into MySQL to see whether the format time in EXCEL was preserved. Then I combined all 12 monthly tables into one table using INSERT IGNORE statements. I also investigated some trends and saved that information to CSV files. </p>
+									<ul class="actions special">
+										<li><a href="https://github.com/QianqianM/BIKE/blob/main/SQL%20query" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+									
+										<h2><a href="#">Tableau Visualization<br /></header>
+									<a href="#" class="image fit"><img src="images/tableau.png" alt="" /></a>
+									<p>After I cleaned and sorted my data in mySQL, I imported it into Tableau to create data visualizations.</p>
+									<ul class="actions special">
+										<li><a href="https://public.tableau.com/app/profile/q3075/viz/Bikeproject_16732720112900/Dashboard" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="#">Summary<br />
+										</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/tableau.png" alt="" /></a>
+									<p>1. In 2022, more people utilized their bikes as members than as casual users, yet casual users usually rode for longer durations. 2. Their most popular bikes are classic bikes, followed by electric bikes, and lastly docked bikes. 3. Typically, casual users take rides on weekends, while members have a more even distribution of rides throughout the week. 4. Bicycle utilization rises significantly during the 2nd quarter and reaches its maximum in the 3rd quarter.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+							</section>
+
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							
+						</section>
+						<section class="split contact">
+							<section class="alt">
+								<h3>Address</h3>
+								<p>Riverwalk, Sligo<br />
+						
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p><a href="#">0838601624</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">qianqianmeng98@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="https://www.linkedin.com/in/qianqianmeng/" class="icon brands alt fa-linkedin"><span class="label">linkedin</span></a></li>
+									<li><a href="https://github.com/QianqianM" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
